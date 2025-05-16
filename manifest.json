@@ -1,6 +1,6 @@
 {
     "display_name": "Context Monitor (调试工具)",
-    "loading_order": 5,  // 确保它比大多数其他插件先加载
+    "loading_order": 5,
     "requires": [],
     "optional": [],
     "js": "index.js",
