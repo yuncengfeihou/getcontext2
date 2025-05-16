@@ -1,0 +1,11 @@
+{
+    "display_name": "Context Monitor (调试工具)",
+    "loading_order": 5,  // 确保它比大多数其他插件先加载
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": null,
+    "author": "Your Name",
+    "version": "1.0.0",
+    "homePage": ""
+}
