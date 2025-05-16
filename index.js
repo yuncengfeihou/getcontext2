@@ -1,14 +1,14 @@
 // 注意：导入路径可能需要根据你的 SillyTavern 版本调整
 import {
     eventSource,
+    saveSettingsDebounced,
     event_types 
 } from '../../../../script.js'; // getContext 通常在这里或 script.js
 
 import {
     renderExtensionTemplateAsync,
     extension_settings,
-    getContext,
-    saveSettingsDebounced
+    getContext
 } from '../../../extensions.js';
 
 
