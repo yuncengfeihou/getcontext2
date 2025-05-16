@@ -2,9 +2,7 @@
 import {
     eventSource,
     event_types 
-} from '../../../extensions.js'; // getContext 通常在这里或 script.js
-// 如果上面导入失败，尝试从 script.js 导入
-// import { getContext } from '../../../../script.js';
+} from '../../../script.js'; // getContext 通常在这里或 script.js
 
 import {
     renderExtensionTemplateAsync,
