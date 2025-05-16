@@ -48,6 +48,7 @@ function handleChatChangedMonitor(chatId) {
                 // 尝试调用 getContext 并记录关键信息
                 const context = getContext();
                 console.log('[Context Monitor] getContext() called successfully.');
+                console.log('[Context Monitor] Full context.chatMetadata at event time (copied):', JSON.parse(JSON.stringify(context.chatMetadata || {})));
                 console.log('[Context Monitor] Context details at event time:', {
                     chatId: context.chatId,
                     characterId: context.characterId,
